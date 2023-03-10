@@ -1,0 +1,29 @@
+header {
+  background-color: #322625;
+  color: #fff;
+}
+
+.header-menu {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 15%;
+  text-transform: capitalize;
+  font-weight: bold;
+  overflow: hidden;
+}
+
+.header-menu li {
+  padding: 15px 10px;
+}
+
+.header-menu li .link {
+  cursor: pointer;
+  color: #fff;
+  text-decoration: none;
+}
+
+.header-menu li a.active {
+  color: #fdc936;
+}
